@@ -77,7 +77,7 @@ For a basic (terminal and command-line) environment for chaincode development, p
     At the completion of this command, you will see this message:
 
     ```
-    package github.com/hyperledger/fabric: no buildable Go source files in /Users/blockchain/workspace/misc/src/github.com/hyperledger/fabric
+    package github.com/hyperledger/fabric: no buildable Go source files in /$GOPATH/src/github.com/hyperledger/fabric
     ```
     
     There is no need to worry. Go tooling typically pull source code and then tries to build a binary but in this case the hyperledger fabric dependencies have nothing to be built.
